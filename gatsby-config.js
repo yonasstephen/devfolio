@@ -1,58 +1,53 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://yonasstephen.com/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Yonas Stephen',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Yonas Stephen | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Engineer `,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@yonasstephen`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/yonasstephen`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/yonasstephen/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Software Engineer with 7 years of experience. I started my career in full stack web & mobile development. Then distributed systems caught my interests into the backend world especially after reading Designing Data Intensive Application book (you should read it, too!). Keep learning new things is the way to go!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Swift of Airbnb',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A self-taught project of learning Swift by making some of Airbnb iOS app screens. ',
+        link: 'https://github.com/yonasstephen/swift-of-airbnb',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'ratelimiter',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Extensible rate limiter module in Go. Pick the algorithm & the data store you want.',
+        link: 'https://github.com/yonasstephen/ratelimiter',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Wedding RSVP App',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A static wedding website for fellow groom devs out there :) Built using NextJS, CSSGrid, StyledComponent',
+        link: 'https://github.com/yonasstephen/yonasyulin',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Gojek',
+        description: 'Senior Software Engineer, September 2017 - Present',
+        link: 'https://gojek.io',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Anacle Systems',
+        description: 'Software Engineer, July 2014 - August 2017',
+        link: 'https://www.anacle.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +55,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Golang, JavaScript (ES6+), React, Java, C#,  Python',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Data Stores',
+        description: 'PostreSQL, ElasticSearch, Redis',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Google Cloud Platform, CI / CD (Gitlab CI), Microservices, Apache Kafka, RabbitMQ, Apache Flink, Apache Zookeeper, Chef',
       },
     ],
   },

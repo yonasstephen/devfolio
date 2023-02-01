@@ -40,8 +40,13 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Meta',
+        description: 'Software Engineer @ Instagram ML Data Authoring, Jun 2022 - Present',
+        link: 'https://www.meta.com',
+      },
+      {
         name: 'Gojek',
-        description: 'Senior Software Engineer, September 2017 - Present',
+        description: 'Senior Software Engineer, September 2017 - May 2022',
         link: 'https://gojek.io',
       },
       {
